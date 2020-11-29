@@ -1,5 +1,7 @@
 # vesselize-vue-starter
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0d484d00-67ad-4d19-9694-6ebac347d69a/deploy-status)](https://app.netlify.com/sites/vesselize-vue-starter/deploys)
+
 🌱 Getting Started with Vesselize and Vue.js.
 
 ## Docs

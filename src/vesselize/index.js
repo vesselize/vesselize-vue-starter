@@ -5,8 +5,8 @@ import UserService from './services/UserService';
 import AuthService from './services/AuthService';
 
 const providers = [
-  UserAPI,
-  UserService,
+  { token: 'UserAPI', useClass: UserAPI },
+  { token: 'UserService', useClass: UserService },
   {
     token: 'AuthService',
     useFactory() {

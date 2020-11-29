@@ -2,20 +2,23 @@
   <div>Home</div>
   <p>Getting Started with Vesselize and Vue.js.</p>
   <p>
-    <a
-      href="https://github.com/vesselize/vesselize-vue-starter"
-      target="_blank"
-    >
-      Github Source
-    </a>
+    <a :href="gitURL" target="_blank"> Github Source </a>
   </p>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
 
 <script>
-export default {
+import { computed } from 'vue';
+import { useStore } from 'vuex';
 
-}
+export default {
+  setup() {
+    const store = useStore();
+
+    return {
+      gitURL: computed(() => store.state.git),
+    };
+  },
+};
 </script>
