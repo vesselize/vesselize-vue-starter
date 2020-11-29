@@ -6,7 +6,7 @@
 
 ## Preview
 
-<https://vesselize-vue-starter.netlify.app/>
+<https://vesselize-vue-starter.netlify.app>
 
 ## Docs
 
